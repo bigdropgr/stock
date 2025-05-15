@@ -1,0 +1,7 @@
+[15-May-2025 13:19:02 Europe/Athens] PHP Deprecated:  Implicit conversion from float 16.833649158477783 to int loses precision in /home/vakoufaris/public_html/stock.vakoufaris.com/cron/status-aware-import-variable-products.php on line 573
+[15-May-2025 13:19:02 Europe/Athens] PHP Fatal error:  Uncaught TypeError: fwrite(): supplied resource is not a valid stream resource in /home/vakoufaris/public_html/stock.vakoufaris.com/cron/status-aware-import-variable-products.php:50
+Stack trace:
+#0 /home/vakoufaris/public_html/stock.vakoufaris.com/cron/status-aware-import-variable-products.php(50): fwrite(Resource id #11, '\nImport complet...')
+#1 /home/vakoufaris/public_html/stock.vakoufaris.com/cron/status-aware-import-variable-products.php(576): log_message('\nImport complet...', Resource id #11, true)
+#2 {main}
+  thrown in /home/vakoufaris/public_html/stock.vakoufaris.com/cron/status-aware-import-variable-products.php on line 50
